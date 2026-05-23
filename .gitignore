@@ -8,6 +8,10 @@ node_modules/
 dist/
 web-build/
 expo-env.d.ts
+nativewind-env.d.ts
+
+/src/hooks/*
+/src/components/*
 
 # Native
 .kotlin/
@@ -42,3 +46,11 @@ example
 # generated native folders
 /ios
 /android
+
+babel.config.js
+tailwind.config.js
+/patches/*
+
+
+metro.config.js
+global.css
